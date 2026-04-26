@@ -1,2 +1,2 @@
 python-weather
-python_dotenv
+requests

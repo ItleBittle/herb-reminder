@@ -1,0 +1,18 @@
+[
+    {
+        "name": "basil",
+        "min_temp": 50
+    },
+    {
+        "name": "rosemary",
+        "min_temp": 55
+    },
+    {
+        "name": "mint",
+        "min_temp": 45
+    },
+    {
+        "name": "thyme",
+        "min_temp": 30
+    }
+]

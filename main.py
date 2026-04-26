@@ -16,13 +16,13 @@ async def main():
         if int(low_today) < int(plant["min_temp"]):
             danger.append(plant["name"])
 
-    message = f"""
-        The low temperature today is {low_today}.
-        Please bring {danger} inside.
-    """
+    if danger:
+        message = f"""
+            The low temperature today is {low_today}.
+            Please bring {danger} inside.
+        """
 
-    print(message)
-
-    notify(message)
+        print(message)
+        notify(message)
 
 asyncio.run(main())
